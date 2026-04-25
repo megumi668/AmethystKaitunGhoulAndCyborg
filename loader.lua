@@ -1,7 +1,7 @@
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 
 local API_URL = "https://bot-key-api.onrender.com/api/verify"
-local SCRIPT_URL = "https://raw.githubusercontent.com/megumi668/AMETHYSTHUB/refs/heads/main/AMETHYSTHUB.lua"
+local SCRIPT_URL = "https://raw.githubusercontent.com/megumi668/AmethystKaitunGhoulAndCyborg/refs/heads/main/AmethystKaitunGhoulAndCyborgbySoda.lua"
 
 -- Tự động lấy HWID máy
 local hwid = tostring(game:GetService("RbxAnalyticsService"):GetClientId())
